@@ -9,7 +9,7 @@ public class SyncHandler
     private static double startTime;
     private static BPMStructure bpmStructure;
 
-    void startSong(BPMStructure BPMStructure, AudioClip song) { 
+    void startSong(BPMStructure BPMStructure) { 
 
         startTime = Time.time;
         bpmStructure = BPMStructure;
